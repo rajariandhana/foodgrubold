@@ -1,0 +1,64 @@
+.sidebar
+{
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    width: 280px;
+    /* margin-right: 200px; */
+    height: 100vh;
+    background-color: var(--red1);
+    padding: 20px;
+}
+
+.sidebar a
+{
+    /* background-color: blue; */
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+#button-home
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+.sidebar .divider
+{
+    background-color: var(--grey1);
+    /* width: 100px; */
+    height: .1em;
+    margin: 1em 0;
+}
+
+.navigation
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    gap: 1em;
+}
+.navigation a
+{
+    /* background-color: green; */
+    /* width: fit-content; */
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+}
+.navigation a img
+{
+    /* width: max-content; */
+    height: 1.5em;
+}
+
+
+.navigation a:hover, .nav-selected
+{
+    background-color: var(--red2);
+    /* color: var(--red1); */
+}

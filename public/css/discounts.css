@@ -1,0 +1,33 @@
+th, td
+{
+    padding: 5px 10px;
+}
+.diskonMinimum, .diskonPotongan, .diskonTanggal, .diskonCRUD
+{
+    text-align: center;
+}
+.diskonMinimum, .diskonMinimum input
+{
+    width: 200px;
+    text-align: center;
+}
+.diskonPotongan, .diskonPotongan input
+{
+    width: 150px;
+    text-align: center;
+}
+.diskonCRUD
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .5em;
+}
+.diskonCRUD button
+{
+    flex-grow: 1;
+}
+#rowEditDiskon
+{
+    visibility: hidden;
+}
